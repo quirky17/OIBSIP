@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Restore Password</title>
+</head>
+<body>
+    <div class="container">
+        <form id="restoreForm">
+            <h2>Restore Password</h2>
+            <label for="restoreUsername">Username:</label>
+            <input type="text" id="restoreUsername" name="restoreUsername" required>
+
+            <button type="button" onclick="restore()">Restore Password</button>
+        </form>
+
+        <div id="restoreMessage" class="success-message"></div>
+
+        <p>Remember your password? <a href="index.html">Login here</a></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

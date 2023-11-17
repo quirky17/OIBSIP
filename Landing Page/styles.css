@@ -1,0 +1,59 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #3681cc;
+    height: 100px;
+    width: auto;
+    color: rgb(138, 213, 220);
+    padding: 2em 0;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.car-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.car-card {
+    max-width: 300px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #ecf0f1; /* Different color for each card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.car-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.car-card-right {
+    order: 1; /* Move the card to the right side */
+}
+
+h2 {
+    color: #3498db;
+}
+
+p {
+    color: #7f8c8d;
+}
+
+footer {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
